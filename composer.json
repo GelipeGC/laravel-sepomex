@@ -1,0 +1,30 @@
+{
+    "name": "fguzman/laravel-sepomex",
+    "description": "Easy apply search states, cities, to your search of cities, states of Mexico",
+    "type": "library",
+    "require": {
+        "php": "^7.1.0",
+        "illuminate/support": "^6.0",
+        "illuminate/database": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.4",
+        "orchestra/testbench": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fguzman\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Felipe Guzman",
+        "email": "felipe-guzman.c@hotmail.com"
+    }],
+    "minimum-stability": "stable"
+}
